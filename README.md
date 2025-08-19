@@ -1,24 +1,38 @@
+
 # Inventory Management System
 
-A simple PHP web system for managing an inventory.  
-  
+This project is a web-based Inventory Management System designed to help businesses efficiently manage their inventory, sales, purchases, customers, and vendors. Built using PHP, HTML, CSS, and JavaScript, it provides a user-friendly interface for tracking items, handling transactions, and generating reports.
 
-## Installation
-* Clone the repository and move the root folder to the deployment folder of your browser. (for Apache, this is htdocs)
-* Create a blank DB called *shop_inventory* in MySQL
-* Load the sql dump to the newly created _shop_inventory_ database
-* Change the root url of your website in [constants.php](inc/config/constants.php) file
+## Features
+- **Item Management:** Add, update, delete, and view item details and stock levels.
+- **Customer Management:** Manage customer information and view customer-related reports.
+- **Vendor Management:** Track vendor details and purchase history.
+- **Sales & Purchases:** Record sales and purchase transactions, with detailed reporting and filtering options.
+- **Image Handling:** Upload and manage item images for better identification.
+- **Authentication:** Secure login and user management features.
+- **Reporting:** Generate various reports for sales, purchases, inventory, and customers.
 
-## Requirements
-* PHP
-* MySQL
-* Apache
-* Google Chrome web browser (JavaScript enabled)
-* Internet connection with a reasonable speed
+## Technologies Used
+- PHP (Backend logic)
+- MySQL (Database)
+- HTML, CSS, JavaScript (Frontend)
+- Bootstrap, jQuery, DataTables (UI components)
 
-## Usage
-* Access the login.php file from via browser and give _guest_ as username and _1234_ as password
+## Folder Structure
+- `assets/` - CSS and JS files
+- `inc/` - Includes for headers, navigation, config, etc.
+- `model/` - Backend logic for different modules (item, customer, vendor, sale, purchase, image, login)
+- `data/item_images/` - Item images
+- `vendor/` - Third-party libraries
 
+## Getting Started
+1. Clone the repository to your local machine.
+2. Set up a local web server (e.g., XAMPP) and configure the database using the provided SQL file (`inc/config/shop_inventory.sql`).
+3. Update database credentials in `inc/config/db.php`.
+4. Access the application via your local server (e.g., `http://localhost/inventory-management-system`).
 
-## Acknowledgments
-* Inspired by many similar projects online
+## License
+This project is licensed under the MIT License.
+
+## Author
+Developed by ShubhamG2004.
