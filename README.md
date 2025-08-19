@@ -31,6 +31,14 @@ This project is a web-based Inventory Management System designed to help busines
 3. Update database credentials in `inc/config/db.php`.
 4. Access the application via your local server (e.g., `http://localhost/inventory-management-system`).
 
+## Project Screenshots
+### Login Page
+<img width="1366" height="641" alt="Login_ims" src="https://github.com/user-attachments/assets/597d4858-a13c-4fc9-b191-44005385b13d" />
+
+### Index Page
+<img width="1366" height="808" alt="ims_page2" src="https://github.com/user-attachments/assets/28ae5baa-fae4-4f8f-b3c8-0a63a67b5b63" />
+
+
 ## License
 This project is licensed under the MIT License.
 
