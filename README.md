@@ -39,8 +39,5 @@ This project is a web-based Inventory Management System designed to help busines
 <img width="1366" height="808" alt="ims_page2" src="https://github.com/user-attachments/assets/28ae5baa-fae4-4f8f-b3c8-0a63a67b5b63" />
 
 
-## License
-This project is licensed under the MIT License.
-
 ## Author
 Developed by ShubhamG2004.
